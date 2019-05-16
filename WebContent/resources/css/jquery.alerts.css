@@ -1,0 +1,116 @@
+#popup_container.style_1 {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #A4C6E2;
+	background: #005294;
+	border-color: #113F66;
+}
+
+#popup_container.style_1 #popup_title {
+	color: #FFF;
+	font-weight: normal;
+	text-align: left;
+	background-color: #C1D6DA;
+	background-image: -moz-linear-gradient(center top, #F2F2F2 0%, rgba(254, 254, 254, 0.33)
+		50%, rgba(255, 255, 255, 0.1) 51%, rgba(255, 255, 255, 0) 100%);
+	border: solid 1px #005294;
+	padding-left: 1em;
+}
+
+#popup_container.style_1 #popup_content {
+	background: none;
+}
+
+#popup_container.style_1 #popup_message {
+	padding-left: 0em;
+}
+
+#popup_container.style_1 INPUT[type='button'] {
+	border: outset 2px #76A5CC;
+	color: #A4C6E2;
+	background: #3778AE;
+}
+
+#popup_panel INPUT[type='button'] {
+	border: 1px solid silver;
+	background-color: #B5B7B5;
+	width: 25%;
+	/* padding: 2px 0 2px 0; */
+	background-image: -moz-linear-gradient(center top, #F2F2F2 0%, rgba(254, 254, 254, 0.33)
+		50%, rgba(255, 255, 255, 0.1) 51%, rgba(255, 255, 255, 0) 100%);
+	border-radius: 3px;
+	text-shadow:0px 1px 1px rgba(0, 0, 0, 0.5);
+	height: 23.15px;
+	font-size: 13px;
+	color:black;
+}
+
+#popup_container {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	min-width: 300px; /* Dialog will be no smaller than this */
+	max-width: 600px; /* Dialog will wrap after this width */
+	background: #FFF;
+	border: 1px solid rgba(168, 178, 180, 0.8);
+/* box-shadow: 1px 2pt 3px 3px rgba(101, 99, 90, 0.7), 0px 0px 8px 5px rgba(66, 69, 69, 0.4) inset; */
+
+box-shadow: 1px 1pt 1px 1px rgba(101, 99, 90, 0.7), 0px 0px 0px 0px rgba(66, 69, 69, 0.4) inset;
+	color: red;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	position: fixed;
+}
+
+#popup_title {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.75em;
+	/* color: rgba(255, 255, 255, 0); */
+	/*background: #CCC url('./btn-icons/title.gif') top repeat-x;*/
+	background-color: #C1D6DA;
+	background-image: -moz-linear-gradient(center top , #F2F2F2 0%, rgba(254, 254, 254, 0.33) 50%, rgba(255, 255, 255, 0.1) 51%, rgba(255, 255, 255, 0) 100%);
+	border-bottom: 1px solid #E5E5E5;
+	cursor: default;
+	padding: 0em;
+	margin: 0em;
+}
+
+#popup_content {
+	background: transparent url("images/important.gif") no-repeat scroll 17px 7px;
+	/* padding: 1em 1.75em; */
+	margin: 0em;
+}
+
+#popup_content.alert {
+	background-image: url('..../btn-icons/important.gif');
+}
+
+#popup_content.confirm {
+	background-image: url('..../btn-icons/important.gif');
+}
+
+#popup_content.prompt {
+	background-image: url('..../btn-icons/help.gif');
+}
+
+#popup_message {
+	text-align: center;
+	padding-left: 20px;
+	font-size: 11pt;
+	font-weight: bold;padding-top: 15px;
+}
+
+#popup_panel {
+	text-align: center;
+	padding-top: 13px;
+	/* margin: 1em 0em 0em 0em; */
+}
+
+#popup_prompt {
+	margin: .5em 0em;
+}
+.alert{
+	
+	padding:20px;
+}
